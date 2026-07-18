@@ -1,0 +1,6 @@
+@EduShpere.API_HostAddress = http://localhost:5076
+
+GET {{EduShpere.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
