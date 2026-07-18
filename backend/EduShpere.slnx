@@ -1,3 +1,7 @@
 <Solution>
   <Project Path="EduShpere.API/EduShpere.API.csproj" />
+  <Project Path="EduShpere.Data/EduShpere.Data.csproj" Id="b31caf8b-b77d-43b7-a196-dda5550cc318" />
+  <Project Path="EduShpere.Infrastructure/EduShpere.Infrastructure.csproj" Id="66b2fcde-8cd6-4cc3-83f5-0d7dee33127d" />
+  <Project Path="EduShpere.Repository/EduShpere.Repository.csproj" Id="81371dbb-161d-4372-aab0-c6d55d0abbb1" />
+  <Project Path="EduShpere.Services/EduShpere.Services.csproj" Id="3a6413b5-08b9-4a5b-988f-87e0e131b46b" />
 </Solution>
