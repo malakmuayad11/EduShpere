@@ -414,6 +414,10 @@ public partial class EduShpereContext : DbContext
 
             entity.HasIndex(e => e.Email, "UQ_Users_Email").IsUnique();
 
+            entity.Property(e => e.PasswordHash)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+
             entity.HasIndex(e => e.PhoneNumber, "UQ_Users_PhoneNumber").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("UserID");
